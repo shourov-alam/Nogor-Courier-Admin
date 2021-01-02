@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="2dp"
+    android:layout_marginTop="10dp"
+
+    android:padding="10dp"
+
+
+
+
+    android:layout_height="wrap_content">
+
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/lin2"
+
+      android:orientation="vertical"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4DA351"
+        android:padding="10dp"
+      >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_id"
+            android:textColor="#fefefe"
+            android:textStyle="bold"
+
+            android:textSize="20sp"
+            android:text="demo"
+
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weight"
+            android:textColor="#fefefe"
+
+            android:textSize="20sp"
+            android:text="weight"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+
+            android:textSize="20sp"
+            android:textColor="#fefefe"
+            android:text="status"
+            />
+
+
+
+
+
+      </LinearLayout>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/post_type"
+          android:textSize="20sp"
+          android:layout_alignParentRight="true"
+          android:textColor="#fefefe"
+
+
+
+          android:textStyle="bold"
+          android:text="demo"
+
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/date"
+          android:layout_below="@+id/post_type"
+          android:layout_alignParentRight="true"
+          android:textColor="#fefefe"
+
+
+          android:textSize="20sp"
+          android:text="date"
+
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/cost"
+          android:layout_below="@+id/date"
+          android:layout_alignParentRight="true"
+          android:textColor="#fefefe"
+
+
+
+          android:textSize="20sp"
+          android:text="cost amount"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/condition"
+          android:layout_alignParentRight="true"
+          android:textColor="#fefefe"
+
+
+          android:layout_below="@+id/cost"
+
+          android:textSize="20sp"
+          android:text="cod amount"
+          />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_marginTop="8dp"
+          android:gravity="center"
+          android:text="Status"
+          android:id="@+id/now"
+
+          android:textSize="18sp"
+
+          android:textColor="#F44336"
+
+
+          />
+
+
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+
+     android:layout_marginTop="8dp"
+     android:gravity="center"
+     android:text="-----FROM-----"
+
+     android:textSize="18sp"
+     android:textStyle="bold"
+     android:textColor="#4DA351"
+
+
+   />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    >
+
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/image_call"
+       android:background="@drawable/ic_call_black_24dp"
+     android:padding="15dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginTop="-4dp"
+       android:layout_alignParentRight="true"
+
+
+
+
+       />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_done"
+        android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/image_call"
+
+        android:background="@drawable/ic_send_black_24dp"
+
+        android:layout_marginTop="-4dp"
+        android:padding="15dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m_name"
+        android:layout_marginLeft="7dp"
+
+        android:textSize="18sp"
+        android:text="m_name"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_marginLeft="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:textColor="#000000"
+
+        android:textSize="18sp"
+        android:text="phone"
+        />
+
+
+
+    <TextView
+        android:layout_marginLeft="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/from"
+        android:textColor="#000000"
+
+        android:textSize="18sp"
+        android:text="from"
+        />
+
+    <TextView
+        android:layout_marginLeft="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="to"
+        />
+
+  </LinearLayout>
+
+</RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="-----TO-----"
+        android:textStyle="bold"
+        android:textColor="#4DA351"
+
+
+        />
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+
+
+
+          >
+
+          <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/image_call1"
+
+              android:background="@drawable/ic_call_black_24dp"
+
+              android:layout_marginTop="-4dp"
+              android:padding="15dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="5dp"
+              />
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+
+
+
+              >
+      <TextView
+          android:id="@+id/rname"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/to"
+          android:layout_marginLeft="7dp"
+          android:text="rname"
+          android:textColor="#000000"
+          android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginLeft="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rphone"
+        android:textSize="18sp"
+        android:text="rphone"
+        android:textColor="#000000"
+        />
+
+
+      <TextView
+          android:id="@+id/fromarea"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/rphone"
+          android:layout_marginLeft="7dp"
+          android:text="fromarea"
+          android:textColor="#000000"
+          android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/toarea"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+
+        android:text="toarea"
+        android:textSize="18sp" />
+
+
+
+
+
+    <TextView
+        android:layout_marginLeft="7dp"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruction"
+
+        android:textSize="18sp"
+        android:text="instruction"
+        />
+
+
+              <View
+                  android:layout_width="10dp"
+                  android:layout_height="10dp"
+
+               />
+
+  </LinearLayout>
+
+
+      </RelativeLayout>
+
+
+
+
+  </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

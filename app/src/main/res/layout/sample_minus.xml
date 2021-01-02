@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Driver salary"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:textSize="30dp"
+        android:textColor="#000000"
+
+        android:hint="enter amount"
+        android:layout_gravity="center"
+        android:id="@+id/amount"
+        />
+
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:background="#4CAF50"
+        android:textColor="#fefefe"
+        android:textStyle="bold"
+
+
+        android:layout_height="wrap_content"
+        android:text="Done"
+
+        android:id="@+id/minus"
+        />
+
+        -->
+
+</LinearLayout>

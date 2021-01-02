@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Login">
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:id="@+id/pass"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textSize="15dp"
+        android:textColor="#fefefe"
+        android:textStyle="italic"
+        android:id="@+id/btn_enter"
+        android:layout_marginTop="20dp"
+        android:background="#4CAF50"
+
+        />
+
+
+
+
+</LinearLayout>

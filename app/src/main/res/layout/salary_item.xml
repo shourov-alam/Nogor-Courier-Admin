@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+
+
+
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="12dp"
+
+
+
+    android:layout_height="wrap_content">
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    android:padding="10dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:text="refresh"
+            android:src="@drawable/ic_refresh_black_24dp"
+
+
+            android:layout_toLeftOf="@+id/salary1"
+
+
+            android:id="@+id/refresh"
+            android:layout_marginRight="35dp"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_content_cut_black_24dp"
+            android:layout_marginRight="10dp"
+
+
+            android:text="-- salary"
+            android:layout_alignParentRight="true"
+            android:id="@+id/salary1"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:textSize="18dp"
+
+        android:id="@+id/phone"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salary"
+        android:textSize="18dp"
+        android:id="@+id/salary"
+        android:textColor="#000000"
+
+        />
+
+
+
+</LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
